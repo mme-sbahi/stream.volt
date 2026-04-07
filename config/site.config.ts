@@ -169,14 +169,14 @@ export const STEPS = [
 ] as const;
 
 export const DEVICES = [
-  { name: "Smart TV", icon: "🖥️" },
-  { name: "Android TV", icon: "📺" },
+  { name: "Smart TV", icon: "📺" },
+  { name: "Android TV", icon: "🤖" },
   { name: "iPhone", icon: "📱" },
-  { name: "Android", icon: "🤖" },
+  { name: "Android", icon: "📲" },
   { name: "Firestick", icon: "🔥" },
   { name: "Laptop", icon: "💻" },
-  { name: "iPad", icon: "⬜" },
-  { name: "Chromecast", icon: "🔵" },
+  { name: "iPad", icon: "📋" },
+  { name: "Chromecast", icon: "📡" },
 ] as const;
 
 export const TESTIMONIALS = [
