@@ -22,7 +22,7 @@ const VERIFIED_POSTERS = [
   "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
   "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
   "https://image.tmdb.org/t/p/w500/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
-  "https://image.tmdb.org/t/p/w500/sHFlm07GotJKxEIEBOMRjRzPm36.jpg",
+  "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
   "https://image.tmdb.org/t/p/w500/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
   "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
 ];
@@ -45,7 +45,7 @@ const POSTER_MAP: Record<string, string> = {
   "The Witcher": VERIFIED_POSTERS[14],
   Wednesday: VERIFIED_POSTERS[15],
   Shogun: VERIFIED_POSTERS[16],
-  "The Bear": VERIFIED_POSTERS[17],
+  "The Bear": VERIFIED_POSTERS[12],
   Fallout: VERIFIED_POSTERS[18],
   "Dark Matter": VERIFIED_POSTERS[19],
   "Slow Horses": VERIFIED_POSTERS[14],

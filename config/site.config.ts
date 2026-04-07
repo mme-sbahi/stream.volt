@@ -175,7 +175,7 @@ export const DEVICES = [
   { name: "Android", icon: "📲" },
   { name: "Firestick", icon: "🔥" },
   { name: "Laptop", icon: "💻" },
-  { name: "iPad", icon: "📋" },
+  { name: "iPad", icon: "apple" },
   { name: "Chromecast", icon: "📡" },
 ] as const;
 
