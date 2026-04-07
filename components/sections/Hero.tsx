@@ -24,16 +24,17 @@ export default function Hero() {
     <section className="relative min-h-screen w-full flex items-center justify-start overflow-hidden bg-[#0E0E10]">
       {/* Video Background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <iframe
-          className="absolute top-1/2 left-1/2 w-[177.78vh] min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-          style={{ aspectRatio: "16/9" }}
-          src="https://www.youtube.com/embed/s9gSuKaKcqM?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=s9gSuKaKcqM&playsinline=1&disablekb=1&fs=0&modestbranding=1"
-          allow="autoplay; encrypted-media"
-          loading="eager"
-          title=""
-          tabIndex={-1}
-          aria-hidden="true"
-        />
+        <div className="absolute inset-0 bg-black">
+          <iframe
+            className="absolute top-1/2 left-1/2 w-[300vw] h-[300vh] min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            src="https://www.youtube.com/embed/s9gSuKaKcqM?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=s9gSuKaKcqM&playsinline=1&disablekb=1&fs=0&modestbranding=1&iv_load_policy=3&branding=0&start=10"
+            allow="autoplay; encrypted-media"
+            loading="eager"
+            title=""
+            tabIndex={-1}
+            aria-hidden="true"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0E0E10]/40 via-[#0E0E10]/20 to-[#0E0E10]/60" />
       </div>
 
