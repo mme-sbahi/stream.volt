@@ -172,7 +172,7 @@ export const DEVICES = [
   { name: "Smart TV", icon: "📺" },
   { name: "Android TV", icon: "🤖" },
   { name: "iPhone", icon: "📱" },
-  { name: "Android", icon: "📲" },
+  { name: "Android", icon: "android" },
   { name: "Firestick", icon: "🔥" },
   { name: "Laptop", icon: "💻" },
   { name: "iPad", icon: "apple" },
